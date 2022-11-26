@@ -1,5 +1,6 @@
 {
   "name": "soliverse",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
