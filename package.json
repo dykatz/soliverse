@@ -1,5 +1,5 @@
 {
-  "name": "solid-fedi",
+  "name": "soliverse",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
