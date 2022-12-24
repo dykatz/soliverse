@@ -1,30 +1,51 @@
-# SolidStart
+# SoliVerse
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+SoliVerse is a social media server.
 
-## Creating a project
+## Designing
 
-```bash
-# create a new project in the current directory
-npm init solid
-
-# create a new project in my-app
-npm init solid my-app
-```
+There is a diagram of the database schema stored in [this](/schema.vuerd.json) file. To view and edit it, use the [vuerd](https://github.com/vuerd/vuerd) tool.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone the project and install dependencies with:
 
-```bash
-npm run dev
+```sh
+npm install
+```
 
-# or start the server and open the app in a new browser tab
+Start a development server and open it in the browser, which will hot-reload changes, with:
+
+```sh
 npm run dev -- --open
 ```
 
-## Building
+The project uses the following major dependencies:
 
-Solid apps are built with _adapters_, which optimise your project for deployment to different environments.
+- [SolidStart](https://start.solidjs.com) — application framework
+- [Solid](https://solidjs.com) - component framework
+- [UnoCSS](https://uno.antfu.me/) — atomic CSS framework
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different adapter, add it to the `devDependencies` in `package.json` and specify in your `vite.config.js`.
+VS Code is _highly_ recommended for development. Install the recommended extensions to be consistent with other developers.
+
+## Deploying
+
+Compile a production build of SoliVerse with:
+
+```sh
+npm run build
+```
+
+SoliVerse deployed with _adapters_, which optimize your project for deployment to different services.
+
+By default, SoliVerse makes a node app that can run on any server. To use a different adapter (e.g. for serverless deployment), add one to the `devDependencies` in `package.json` and specify it in your `vite.config.js`. The official adapters are the `start-*` packages listed [here](https://github.com/solidjs/solid-start/tree/main/packages).
+
+The node app can be started with:
+
+```
+npm start
+```
+
+## Licensing
+
+SoliVerse follows in the footsteps of other federated social media projects, like [Mastodon](https://joinmastodon.org/) and [Pleroma](https://pleroma.social/), and is licensed under the [AGPL license](https://www.gnu.org/licenses/agpl-3.0.en.html). Read the [`LICENSE`](/LICENSE.md) file for more details.
