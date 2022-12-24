@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -1,
-    "scrollLeft": -2,
+    "scrollTop": 0,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -49,8 +49,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -327,7 +327,7 @@
           "active": false,
           "left": 249,
           "top": 63,
-          "zIndex": 541,
+          "zIndex": 34,
           "widthName": 60,
           "widthComment": 60
         },
@@ -341,7 +341,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -389,7 +389,7 @@
           "active": false,
           "left": 761.6667,
           "top": 76,
-          "zIndex": 19,
+          "zIndex": 2,
           "widthName": 60.51904296875,
           "widthComment": 60
         },
@@ -403,7 +403,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -426,7 +426,7 @@
           {
             "name": "blockedActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -451,7 +451,7 @@
           "active": false,
           "left": 783.6667,
           "top": 204.3333,
-          "zIndex": 25,
+          "zIndex": 3,
           "widthName": 64.130859375,
           "widthComment": 60
         },
@@ -465,7 +465,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -536,7 +536,7 @@
           "active": false,
           "left": 767.3333,
           "top": 327,
-          "zIndex": 29,
+          "zIndex": 4,
           "widthName": 60.51904296875,
           "widthComment": 60
         },
@@ -550,7 +550,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -573,7 +573,7 @@
           {
             "name": "pinnedActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -598,7 +598,7 @@
           "active": false,
           "left": 777.3333,
           "top": 473.3333,
-          "zIndex": 37,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 60
         },
@@ -612,8 +612,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -635,7 +635,7 @@
           {
             "name": "reporterActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -658,7 +658,7 @@
           {
             "name": "reportedActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -796,7 +796,7 @@
           {
             "name": "groupId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -844,7 +844,7 @@
           "active": false,
           "left": 770.6667,
           "top": 604,
-          "zIndex": 225,
+          "zIndex": 21,
           "widthName": 60,
           "widthComment": 60
         },
@@ -858,8 +858,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -881,7 +881,7 @@
           {
             "name": "posterActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -950,7 +950,7 @@
           {
             "name": "replyTo",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -973,7 +973,7 @@
           {
             "name": "quoteOf",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1019,7 +1019,7 @@
           {
             "name": "scopedGroupId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1042,7 +1042,7 @@
           {
             "name": "scopedEventId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1065,7 +1065,7 @@
           {
             "name": "linkedGroupId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1088,7 +1088,7 @@
           {
             "name": "linkedEventId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1113,7 +1113,7 @@
           "active": false,
           "left": 281.6667,
           "top": 817,
-          "zIndex": 556,
+          "zIndex": 23,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1127,7 +1127,7 @@
           {
             "name": "reportId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1150,7 +1150,7 @@
           {
             "name": "postId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1198,7 +1198,7 @@
           "active": false,
           "left": 803,
           "top": 965,
-          "zIndex": 6,
+          "zIndex": 1,
           "widthName": 94.498046875,
           "widthComment": 60
         },
@@ -1212,7 +1212,7 @@
           {
             "name": "postId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1235,7 +1235,7 @@
           {
             "name": "mentionedActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1260,7 +1260,7 @@
           "active": false,
           "left": 310,
           "top": 573,
-          "zIndex": 112,
+          "zIndex": 10,
           "widthName": 80.76171875,
           "widthComment": 60
         },
@@ -1274,7 +1274,7 @@
           {
             "name": "postId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1297,7 +1297,7 @@
           {
             "name": "conversationPostId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1322,7 +1322,7 @@
           "active": false,
           "left": 8,
           "top": 1168,
-          "zIndex": 410,
+          "zIndex": 16,
           "widthName": 115.45166015625,
           "widthComment": 60
         },
@@ -1336,8 +1336,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -1359,7 +1359,7 @@
           {
             "name": "postId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1453,7 +1453,7 @@
           "active": false,
           "left": 741,
           "top": 1132,
-          "zIndex": 561,
+          "zIndex": 25,
           "widthName": 93.76806640625,
           "widthComment": 60
         },
@@ -1467,7 +1467,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1490,7 +1490,7 @@
           {
             "name": "postId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1538,7 +1538,7 @@
           "active": false,
           "left": 35,
           "top": 430,
-          "zIndex": 72,
+          "zIndex": 6,
           "widthName": 79.32080078125,
           "widthComment": 60
         },
@@ -1552,7 +1552,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1575,7 +1575,7 @@
           {
             "name": "mutedActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1600,7 +1600,7 @@
           "active": false,
           "left": 1172,
           "top": 130,
-          "zIndex": 82,
+          "zIndex": 7,
           "widthName": 61.24267578125,
           "widthComment": 60
         },
@@ -1614,7 +1614,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1637,7 +1637,7 @@
           {
             "name": "followedActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1662,7 +1662,7 @@
           "active": false,
           "left": 1177,
           "top": 301,
-          "zIndex": 92,
+          "zIndex": 8,
           "widthName": 69.9072265625,
           "widthComment": 60
         },
@@ -1676,7 +1676,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1699,7 +1699,7 @@
           {
             "name": "postId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1724,7 +1724,7 @@
           "active": false,
           "left": 21,
           "top": 690.6667,
-          "zIndex": 111,
+          "zIndex": 9,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1738,8 +1738,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -1761,7 +1761,7 @@
           {
             "name": "postId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1809,7 +1809,7 @@
           "active": false,
           "left": 389,
           "top": 1286,
-          "zIndex": 494,
+          "zIndex": 24,
           "widthName": 61.97900390625,
           "widthComment": 60
         },
@@ -1823,7 +1823,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1846,7 +1846,7 @@
           {
             "name": "postId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1869,7 +1869,7 @@
           {
             "name": "optionId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1894,7 +1894,7 @@
           "active": false,
           "left": 105,
           "top": 1430,
-          "zIndex": 361,
+          "zIndex": 14,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1908,8 +1908,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -1931,7 +1931,7 @@
           {
             "name": "ownerActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2117,7 +2117,7 @@
           "active": false,
           "left": 1265,
           "top": 741,
-          "zIndex": 426,
+          "zIndex": 29,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2131,7 +2131,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2154,7 +2154,7 @@
           {
             "name": "groupId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2225,7 +2225,7 @@
           "active": false,
           "left": 1186,
           "top": 479,
-          "zIndex": 335,
+          "zIndex": 13,
           "widthName": 109.65625,
           "widthComment": 60
         },
@@ -2239,8 +2239,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -2262,7 +2262,7 @@
           {
             "name": "ownerActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2310,7 +2310,7 @@
           "active": false,
           "left": 1615,
           "top": 138,
-          "zIndex": 285,
+          "zIndex": 22,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2324,7 +2324,7 @@
           {
             "name": "listId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2347,7 +2347,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2372,7 +2372,7 @@
           "active": false,
           "left": 1621,
           "top": 384,
-          "zIndex": 286,
+          "zIndex": 11,
           "widthName": 93.75537109375,
           "widthComment": 60
         },
@@ -2386,8 +2386,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -2409,7 +2409,7 @@
           {
             "name": "groupId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2457,7 +2457,7 @@
           "active": false,
           "left": 1653,
           "top": 842,
-          "zIndex": 322,
+          "zIndex": 32,
           "widthName": 153.759765625,
           "widthComment": 60
         },
@@ -2471,7 +2471,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2494,7 +2494,7 @@
           {
             "name": "questionId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2542,7 +2542,7 @@
           "active": false,
           "left": 1619,
           "top": 555,
-          "zIndex": 332,
+          "zIndex": 12,
           "widthName": 160.26611328125,
           "widthComment": 60
         },
@@ -2556,7 +2556,7 @@
           {
             "name": "groupId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2579,7 +2579,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2627,7 +2627,7 @@
           "active": false,
           "left": 1373,
           "top": 1098,
-          "zIndex": 396,
+          "zIndex": 15,
           "widthName": 61.26171875,
           "widthComment": 60
         },
@@ -2641,8 +2641,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -2664,7 +2664,7 @@
           {
             "name": "ownerActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2687,7 +2687,7 @@
           {
             "name": "scopedGroupId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2919,7 +2919,7 @@
           "active": false,
           "left": 1151,
           "top": 1263.3333,
-          "zIndex": 476,
+          "zIndex": 30,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2933,7 +2933,7 @@
           {
             "name": "eventId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -2956,7 +2956,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3027,7 +3027,7 @@
           "active": false,
           "left": 1615,
           "top": 1273,
-          "zIndex": 468,
+          "zIndex": 17,
           "widthName": 71.3671875,
           "widthComment": 60
         },
@@ -3041,7 +3041,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3064,7 +3064,7 @@
           {
             "name": "questionId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3112,7 +3112,7 @@
           "active": false,
           "left": 1167,
           "top": 1615,
-          "zIndex": 492,
+          "zIndex": 18,
           "widthName": 129.9052734375,
           "widthComment": 60
         },
@@ -3126,8 +3126,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -3149,7 +3149,7 @@
           {
             "name": "eventId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3197,7 +3197,7 @@
           "active": false,
           "left": 1608,
           "top": 1519,
-          "zIndex": 486,
+          "zIndex": 31,
           "widthName": 123.39892578125,
           "widthComment": 60
         },
@@ -3211,8 +3211,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -3280,7 +3280,7 @@
           {
             "name": "createdByActorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3305,7 +3305,7 @@
           "active": false,
           "left": 470,
           "top": 1583,
-          "zIndex": 537,
+          "zIndex": 26,
           "widthName": 78.59716796875,
           "widthComment": 60
         },
@@ -3319,7 +3319,7 @@
           {
             "name": "conversationId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3342,7 +3342,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3390,7 +3390,7 @@
           "active": false,
           "left": 21,
           "top": 1634,
-          "zIndex": 525,
+          "zIndex": 19,
           "widthName": 150.12255859375,
           "widthComment": 60
         },
@@ -3404,8 +3404,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -3427,7 +3427,7 @@
           {
             "name": "conversationId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3450,7 +3450,7 @@
           {
             "name": "actorId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3519,7 +3519,7 @@
           {
             "name": "linkedPostId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3544,7 +3544,7 @@
           "active": false,
           "left": 801,
           "top": 1750,
-          "zIndex": 566,
+          "zIndex": 28,
           "widthName": 131.34619140625,
           "widthComment": 60
         },
@@ -3558,8 +3558,8 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "text",
-            "default": "cuid()",
+            "dataType": "serial",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
@@ -3581,7 +3581,7 @@
           {
             "name": "messageId",
             "comment": "",
-            "dataType": "text",
+            "dataType": "serial",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -3675,7 +3675,7 @@
           "active": false,
           "left": 312,
           "top": 1777,
-          "zIndex": 571,
+          "zIndex": 27,
           "widthName": 197.1015625,
           "widthComment": 60
         },
