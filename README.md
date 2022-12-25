@@ -4,7 +4,7 @@ SoliVerse is a social media server.
 
 ## Designing
 
-There is a diagram of the database schema stored in [this](/schema.vuerd.json) file. To view and edit it, use the [vuerd](https://github.com/vuerd/vuerd) tool.
+There is a diagram of the database schema stored in [this](/meta/schema.vuerd.json) file. To view and edit it, use the [vuerd](https://github.com/vuerd/vuerd) tool.
 
 ## Developing
 
@@ -13,6 +13,14 @@ Clone the project and install dependencies with:
 ```sh
 npm install
 ```
+
+Create a `.env` file with:
+
+```sh
+npm run make-env
+```
+
+Adjust the resulting `.env` file to have the correct DB url.
 
 Start a development server and open it in the browser, which will hot-reload changes, with:
 

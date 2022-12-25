@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
-    "start": "solid-start start"
+    "start": "solid-start start",
+    "make-env": "node meta/make-env.mjs"
   },
   "type": "module",
   "devDependencies": {
@@ -17,7 +18,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.6.0",
-    "pg": "^8.8.0",
+    "postgres": "^3.3.2",
     "solid-js": "^1.6.6",
     "solid-start": "^0.2.8",
     "undici": "^5.14.0"

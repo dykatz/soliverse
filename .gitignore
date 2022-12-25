@@ -1,4 +1,4 @@
-
+# Build Output
 dist
 .solid
 .output
@@ -6,7 +6,7 @@ dist
 .netlify
 netlify
 
-# dependencies
+# Dependencies
 /node_modules
 
 # IDEs and editors
@@ -22,3 +22,7 @@ gitignore
 # System Files
 .DS_Store
 Thumbs.db
+
+# Local Configuration
+.env
+.env.*.local
