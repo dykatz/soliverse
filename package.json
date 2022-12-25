@@ -5,7 +5,8 @@
     "dev": "solid-start dev",
     "build": "solid-start build",
     "start": "solid-start start",
-    "make-env": "node meta/make-env.mjs"
+    "make-env": "node meta/make-env.mjs",
+    "migrate": "node meta/migrate.mjs"
   },
   "type": "module",
   "devDependencies": {

@@ -22,10 +22,28 @@ npm run make-env
 
 Adjust the resulting `.env` file to have the correct DB url.
 
+Get the database schema up to date with:
+
+```sh
+npm run migrate up
+```
+
 Start a development server and open it in the browser, which will hot-reload changes, with:
 
 ```sh
 npm run dev -- --open
+```
+
+If a change requires updating the DB's schema, create a new migration with:
+
+```sh
+npm run migrate create $NAME
+```
+
+The most recent migration can be undone with:
+
+```sh
+npm run migrate down
 ```
 
 The project uses the following major dependencies:
@@ -33,6 +51,7 @@ The project uses the following major dependencies:
 - [SolidStart](https://start.solidjs.com) — application framework
 - [Solid](https://solidjs.com) - component framework
 - [UnoCSS](https://uno.antfu.me/) — atomic CSS framework
+- [PostgreSQL](https://www.postgresql.org) (via [postgres](https://github.com/porsager/postgres)) — database
 
 VS Code is _highly_ recommended for development. Install the recommended extensions to be consistent with other developers.
 
