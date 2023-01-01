@@ -17,8 +17,11 @@
     "vite": "^3.2.5"
   },
   "dependencies": {
+    "@auth/core": "^0.2.4",
+    "@auth/solid-start": "^0.1.0",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.6.0",
+    "nodemailer": "^6.8.0",
     "postgres": "^3.3.2",
     "solid-js": "^1.6.6",
     "solid-start": "^0.2.9",
